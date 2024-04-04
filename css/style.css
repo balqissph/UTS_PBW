@@ -1,0 +1,135 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+  background-color: #0468fffe;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 960px;
+  margin: 10px auto 20px auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  cursor: pointer; /* Menampilkan kursor sebagai tanda bahwa elemen dapat diklik */
+}
+
+header h1:hover {
+  color: #ccc; /* Mengubah warna teks saat elemen dihover */
+}
+
+header nav {
+  margin-top: 1rem;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #85c6ff;
+  margin-left: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+  background-color: #2f6fa7;
+}
+
+/* Tentang Section */
+.about {
+  background-color: #eeeeee98;
+  padding: 10rem;
+  text-align: center;
+}
+
+.about h2 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  color: #15a8cde2;
+}
+
+.about p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Members Section */
+.members {
+  padding: 8rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.members h2 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  color: #800080;
+}
+
+.members ul {
+  list-style: none;
+  padding: 3rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.members li {
+  margin: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.members li:hover {
+  transform: translateY(-10px);
+}
+
+.members li img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.members li h3 {
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.members li p {
+  margin: 0;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background-color: #0468fffe;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.members li a {
+  text-decoration: none;
+  color: inherit;
+}
