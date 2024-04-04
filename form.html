@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Pendaftaran</title>
+    <link rel="icon" type="image/png" href="gambar/icon.png" sizes="16x16" />
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 onclick="location.href='index.html';">Website UTS</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="profil.html">Profil</a>
+          <a href="tentang.html">Tentang</a>
+          <a href="hobi.html">Hobi</a>
+          <a href="jadwal.html">Jadwal</a>
+          <a href="form.html">Pendaftaran</a>
+        </nav>
+      </div>
+    </header>
+    <section class="container">
+      <form
+        action="proses_pendaftaran.php"
+        method="post"
+        class="registration-form"
+      >
+        <div class="form-group">
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" name="nama" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="telepon">Telepon:</label>
+          <input type="tel" id="telepon" name="telepon" />
+        </div>
+        <div class="form-group">
+          <label for="pesan">Pesan:</label>
+          <textarea id="pesan" name="pesan" rows="4"></textarea>
+        </div>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2024 Balqis Amanda/234311008</p>
+    </footer>
+  </body>
+</html>
